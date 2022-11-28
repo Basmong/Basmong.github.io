@@ -1,7 +1,86 @@
 * {
     font-family: monospace; 
    }
-   body {
+
+html {
+  font-size: 16px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+} 
+
+body {
      background-color: rgb(255, 204, 204);
      text-align: center;
+     
    }
+
+
+header {
+  border-bottom: 1px solid red;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+main {
+  width: 89%;
+  margin: 0 auto;
+ }
+
+img {
+  margin: 0 auto;
+  max-width: 85%;
+  height: auto;
+  display: block;
+}
+
+main div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  
+}
+
+header span {
+  text-decoration: underline;;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 350px), (orientation: portrait) {
+  html {
+    font-size: 12px;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  
+}
+
+@media only screen and (max-width: 500px) and (orientation: landscape) {
+  html {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 80%;
+  }
+}
+
+
+
+
+
+
